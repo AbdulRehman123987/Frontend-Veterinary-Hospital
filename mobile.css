@@ -1,0 +1,294 @@
+@media only screen and (min-width:280px) and (max-width:420px){
+    .header{
+        padding: 0.1rem 0rem;
+        background-color: black;
+    }
+    .header2{
+        padding: 0.5rem 1rem;
+    }
+    .logo img{
+        width: 60px;
+        height:60px;
+    }
+    ul{
+        display: none;
+    }
+    .searchbox{
+        margin: 0.5rem 0.5rem;
+        height: 40px;
+        width: 200px;
+        border-radius: 20px;
+        box-shadow: none;
+    }
+    .searchbox input{
+        /* background-color: pink; */
+        border-radius: 20px;
+        width:10px;
+    }
+    ::placeholder{
+        font-size: 1rem;
+        padding: 1rem;
+    }
+    .search_icon{
+        border-top-right-radius: 40px;
+        border-bottom-right-radius: 40px;
+    }
+    .search_img{
+        border-radius: 40px;
+        width: 10px;
+        height:15px;
+    }
+    .menu_bar{
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
+    .section1{
+        height: auto;
+        width: 100%;
+        display:block;
+        padding-top:3rem;
+    }
+    .main_text{
+        /* border: 2px solid blue; */
+        padding: 0.5rem 3rem;
+    }
+    .mainimage{
+        display: flex;
+        justify-content: center;
+    }
+    .mainimage img{
+        padding: 0rem;
+        margin: 0rem;
+        width: 350px;
+        height: 350px;
+    }
+    .buttons{
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+        gap:1.5rem;
+    }
+    .button1{
+        font-size:2rem;
+        background-color: transparent;
+        color: white;
+        padding: 1rem 1rem;
+        border-radius: 10px;
+        border:3px solid white;
+    }
+    .button2{
+        font-size:2rem;
+        background-color: transparent;
+        color: white;
+        padding: 1rem 1rem;
+        border-radius: 10px;
+        border:3px solid white;
+    }
+    /* now start the section 2 */
+    .section2{
+        /* border: 2px solid blue; */
+        width: 100%;
+        height: auto;
+        display:block;
+        padding: 2rem 2rem;
+    }
+    .sec2text{
+        padding-left:1rem;
+        padding-top: 3rem;
+        margin-right: 0rem;
+        /* border: 2px solid black; */
+    }
+    .sec2text h1{
+        font-size: 3rem;
+    }
+    .sec2text p{
+        font-size: 1.5rem;
+        margin-top: 1.5rem;
+    }
+    .sec2text button{
+        margin: 4rem;
+        font-size: 1.5rem;
+        padding: 0.5rem;
+        border-radius: 10px;
+        background-color: #DAA520;
+        color: white;
+        border: 1px solid white;
+    }
+    .sec2video{
+        padding-top:2rem;
+    }
+    .sec2video video{
+        width: 300px;
+        height: 300px;
+    }
+    .effect{
+        height: 300px;
+        width: 300px;
+        background-color: rgba(218,165, 25,0.5);
+        position: absolute; 
+    }
+    /* now section 3 start */
+    .section3{
+        width: 100%;
+        /* height: 100vh; */
+    }
+    .sec3text{
+        margin-top: 6rem;
+    }
+    .sec3text h5{
+        padding-left: 3rem;
+        padding-right: 3rem;
+        font-size: 1rem;
+    }
+    .doctors{
+        display:flex;
+        flex-direction: column;
+        gap: 2rem;
+        padding: 4rem 4rem;
+    }
+    .date{
+        color: #0075B6;
+    }
+    .doc1{
+        border: 2px solid #DAA520;
+        margin-left: 1rem;
+        padding: 0.75rem 0.5rem;
+        box-shadow: 3px 5px #DAA520 ;
+    }
+    .doc2{
+        border: 2px solid #DAA520;
+        margin-left: 1rem;
+        padding: 0.75rem 0.5rem;
+        box-shadow: 3px 5px #DAA520 ;
+    }
+    .doc3{
+        border: 2px solid #DAA520;
+        margin-left: 1rem;
+        padding: 0.75rem 0.5rem;
+        box-shadow: 3px 5px #DAA520 ;
+    }
+    .doc1:hover{
+        box-shadow: 3px 0px 0px 3px #DAA520;
+    }
+    .doc2:hover{
+        box-shadow: 3px 0px 0px 3px #DAA520;
+    }
+    .doc3:hover{
+        box-shadow: 3px 0px 0px 3px #DAA520;
+    }
+    .doctors img{
+        width: 200px;
+        height: 200px;
+    }
+    .sec3cover{
+        width: 100%;
+        height: 400px;
+        margin: 7rem 0rem;
+    }
+    .effect2{
+        width:99.9%;
+        height:400px;
+        position:absolute;
+        background-color: rgba(218,165, 25,0.5);
+        display:flex;
+        flex-direction:column;
+        gap: 0.5rem;
+        padding: 2rem 3rem;
+    }
+    .sec3icons img{
+        color: white;
+        width: 50px;
+    }
+    .sec3icons h4{
+        font-size: 0.5rem;
+    }
+    .sec3img{
+        height: 400px;
+        width: 100%;
+    }
+    /* section 4 start here */
+    .section4{
+        background-color:#212122;
+        width: 100%;
+        padding: 0rem 0rem;
+        margin-top: 8rem;
+        color: white;
+        display:flex;
+        flex-direction: column;
+    }
+    .section4 h1{
+        font-size: 3rem;
+    }
+    .section4 h4{
+        font-size: 1rem;
+        padding: 0.5rem;
+    }
+    .section4 h4 a{
+        color: white;
+    }
+    .section4 span{
+        font-size: 1.3rem;
+    }
+    .sec4abt{
+        margin-right: 2rem;
+        padding: 2rem 1rem;
+    }
+    .sec4ser{
+        margin-right: 2rem;
+        padding: 2rem 1rem;
+    }
+    .sec4serc{
+        padding: 2rem 2rem;
+    }
+    .sec4serc h1{
+        padding-left: 2rem;
+    }
+    .sec4serc span{
+        padding-left:2rem;
+    }
+    .sec4search{
+        margin: 1rem 2rem;
+        padding: 0;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        border: 1px solid black;
+        box-shadow: 2px 5px black;
+    }
+    .sec4search input{
+        flex: 1;
+        background:#DAA520;
+        border: none;
+        outline: none;
+    }
+    ::placeholder{
+        font-size: 1rem;
+        color: white;
+    }
+    .search_icon{
+        background:#0075B6;
+        border: none;
+        outline: none;
+    }
+    .search_icon img{
+        width:36px;
+        height: 38px;
+    }
+    .socialicons{
+        display:flex;
+        margin: 1rem 0rem;
+    }
+    .socialicons div{
+        border: 3px solid #DAA520;
+        padding: 8px;
+        background-color: white;
+        border-radius: 50%;
+        margin-left: 1.5rem;
+    }
+    .socialicons img{
+        width: 40px;
+        height: 35px;
+    }
+}

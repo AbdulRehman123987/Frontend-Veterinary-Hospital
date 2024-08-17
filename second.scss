@@ -1,0 +1,342 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+html{
+    font-size: 16px;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.header{
+    position:fixed;
+    width: 100%;
+    padding: 0 4rem;
+    background-color: orange;
+    display: inline-flex;
+}
+.logo img{
+    width: 90px;
+    height: 90px;
+}
+ul{
+    display: flex;
+    margin: 1.5rem 0rem;
+    color: white;
+}
+li{
+    font-size: 2rem;
+    margin-left: 5rem;
+    cursor: pointer;
+}
+li a{
+    color: white;
+    transition: all 1s 0.3s ease-in-out;
+}
+li a:hover{
+    color: black;
+}
+.searchbox{
+    margin: 1.5rem 6rem;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    box-shadow: 2px 5px black;
+}
+.searchbox input{
+    flex: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+::placeholder{
+    font-size: 1rem;
+    color: white;
+}
+.search_icon{
+    background:#0075B6;
+    border: none;
+    outline: none;
+}
+.search_icon img{
+    width:36px;
+    height: 38px;
+}
+/* Now 
+start 
+container 1 */
+.section1{
+    /* border: 2px solid black; */
+    background-color:#DAA520;
+    height: 100vh;
+    width: 100%;
+    padding-top: 3.5rem;
+    display: inline-flex; 
+}
+.main_text{
+    padding: 8rem 6rem;
+    width: 100%;
+}
+.main_text h1{
+    font-size: 4rem;
+    padding: 2rem 0;
+    color:white;
+}
+.main_text span{
+    font-size: 1.5rem;
+    color: white;
+}
+.mainimage{
+    padding-top:5%;
+    /* width: 100%; */
+}
+.buttons{
+    /* border: 2px solid black; */
+    display: flex;
+    margin-top: 3rem;
+    /*margin-left:3rem ; */
+}
+.button1{
+    font-size:2rem;
+    background-color: transparent;
+    color: white;
+    padding: 1rem 1rem;
+    margin-left: 3rem;
+    border-radius: 10px;
+    border:3px solid white;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 0.7s;
+    transition-delay:0.3s;
+    transition-timing-function:ease-in-out;
+}
+.button2{
+    font-size:2rem;
+    background-color: transparent;
+    color: white;
+    padding: 1rem 1rem;
+    margin-left: 3rem;
+    border-radius: 10px;
+    border:3px solid white;
+    cursor: pointer;
+    transition: all 0.7s 0.3s ease-in-out;
+}
+.button1:hover{
+    background-color:#0075B6;
+    border: none;
+}
+.button2:hover{
+    background-color:#0075B6;
+    border: none;
+}
+/* now start section 2 */
+.section2{
+    width: 100%;
+    display: inline-flex;
+    margin-top: 4rem;
+    height: 100vh;
+    padding: 2rem 5rem;
+    /* border: 2px solid blue; */
+}
+.sec2text{
+    padding-left:4rem;
+    padding-top: 11rem;
+    margin-right: 3rem;
+    /* border: 2px solid black; */
+}
+.sec2text h1{
+    font-size: 3rem;
+}
+.sec2text p{
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+}
+.sec2text button{
+    margin: 4rem;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: #DAA520;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.sec2video{
+    padding-top: 12rem;
+}
+.sec2video video{
+    width: 500px;
+    height: 400px;
+}
+.effect{
+    height: 400px;
+    width: 500px;
+    background-color: rgba(218,165, 25,0.5);
+    position: absolute; 
+}
+/* sectin 3 start now */
+.section3{
+    width: 100%;
+    margin-top:3rem ;
+    border: 0.5px solid white;
+    /* height: 100vh; */
+}
+.sec3text{
+    margin-top: 6rem;
+}
+#sec3h1{
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+}
+#sec3p{
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+}
+.doctors{
+    display:inline-flex;
+    /* border: 2px solid brown; */
+    padding: 5rem 12rem;
+}
+.date{
+    color: #0075B6;
+}
+.doc1{
+    border: 2px solid #DAA520;
+    margin-left: 1rem;
+    padding: 0.75rem 0.5rem;
+    box-shadow: 3px 5px #DAA520 ;
+}
+.doc2{
+    border: 2px solid #DAA520;
+    margin-left: 1rem;
+    padding: 0.75rem 0.5rem;
+    box-shadow: 3px 5px #DAA520 ;
+}
+.doc3{
+    border: 2px solid #DAA520;
+    margin-left: 1rem;
+    padding: 0.75rem 0.5rem;
+    box-shadow: 3px 5px #DAA520 ;
+}
+.doc1:hover{
+    box-shadow: 3px 0px 0px 3px #DAA520;
+}
+.doc2:hover{
+    box-shadow: 3px 0px 0px 3px #DAA520;
+}
+.doc3:hover{
+    box-shadow: 3px 0px 0px 3px #DAA520;
+}
+.doctors img{
+    width: 200px;
+    height: 200px;
+}
+.sec3cover{
+    width: 100%;
+    height: 400px;
+    margin: 7rem 0rem;
+}
+.effect2{
+    width:99.9%;
+    height:400px;
+    position:absolute;
+    background-color: rgba(218,165, 25,0.5);
+    display:inline-flex;
+    padding: 8rem 6rem;
+}
+.sec3icons img{
+    color: white;
+    width: 100px;
+}
+.sec3img{
+    height: 400px;
+    width: 100%;
+}
+/* section 4 start here */
+.section4{
+    background-color:#212122;
+    width: 100%;
+    padding: 3rem 3rem;
+    margin-top: 15rem;
+    color: white;
+    display: inline-flex;
+}
+.section4 h1{
+    font-size: 3rem;
+}
+.section4 h4{
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+.section4 h4 a{
+    color: white;
+}
+.section4 span{
+    font-size: 1.3rem;
+}
+.sec4abt{
+    margin-right: 6rem;
+    padding: 2rem 5rem;
+}
+.sec4ser{
+    margin-right: 6rem;
+    padding: 2rem 5rem;
+}
+.sec4serc{
+    padding: 2rem 5rem;
+}
+.sec4serc h1{
+    padding-left: 5.7rem;
+}
+.sec4serc span{
+    padding-left: 5.7rem;
+}
+.sec4search{
+    margin: 1.5rem 6rem;
+    padding: 0;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    box-shadow: 2px 5px black;
+}
+.sec4search input{
+    flex: 1;
+    background:#DAA520;
+    border: none;
+    outline: none;
+}
+::placeholder{
+    font-size: 1rem;
+    color: white;
+}
+.search_icon{
+    background:#0075B6;
+    border: none;
+    outline: none;
+}
+.search_icon img{
+    width:36px;
+    height: 38px;
+}
+.socialicons{
+    display: inline-flex;
+    margin-left: 10rem;
+}
+.socialicons div{
+    border: 3px solid #DAA520;
+    padding: 7px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 1rem;
+}
+.socialicons img{
+    width: 40px;
+    height: 35px;
+}
